@@ -12,3 +12,7 @@ To build specific version, set variable:
 ```sh
 make ZT_VERSION=1.10.1
 ```
+Or to build for a different platform:
+```sh
+make PLATFORM=linux/aarch64
+```
