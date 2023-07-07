@@ -1,5 +1,5 @@
 # ZeroTier-One static binaries
-This project provides static [Zerotier-One](https://github.com/zerotier/ZeroTierOne) binaries.
+This project provides help building static binaries for zerotier from source [Zerotier-One](https://github.com/zerotier/ZeroTierOne) .
 
 # Building
 Open the platform you want to build for.
