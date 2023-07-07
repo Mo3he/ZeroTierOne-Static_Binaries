@@ -1,7 +1,7 @@
 ZT_VERSION ?= 1.10.6
 
 BUILDX_BUILDER ?= zerotier-builder
-PLATFORM ?= linux/amd64
+PLATFORM ?= linux/arm
 BUILDX_OPTS ?= --builder=$(BUILDX_BUILDER) --platform=$(PLATFORM) --build-arg ZT_VERSION=$(ZT_VERSION) --output=out 
 
 one: create-builder
